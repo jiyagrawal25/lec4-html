@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            background-color: aqua;
+            display: inline;
+        }
+        .divclass{
+            background-color: green;
+        }
+        #divid{
+            background-color: blueviolet;
+        }
+        span{
+            background-color: brown;
+            display: block;
+        }
+    </style> 
+    <!-- here the style tag is used to change the background color of the span tag and div tag -->
+    <!-- Since div is a block element it will change the color of the entire block so to get the bg color till text only we can set the property display as inline (now it will act like an inline element) -->
+    <!-- vice versa for span  -->
+    <!-- # is used for id and . is used for class and div is used for normal div tag -->
+
+</head>
+<body>
+    <div>This is inside div</div>
+    <div>This is inside next div</div>
+    <!--the next div will automatically come on the next line without any br tag and abhi humne inline property laga di hai usme isliye same line mein aa rha hai-->
+
+
+
+    <!-- we can also add styling by using class and id let's see how -->
+    <div class="divclass">This is a div tag(class waala)</div>
+    <!-- class is used to control different elements using a single entity-->
+    <div id="divid">This is a div tag(id waala)</div>
+    <!-- id is used to uniquely identify -->
+
+
+    <!-- span tag -->
+     <span>First span</span>
+     <span>Second span</span>
+</body>
+</html>
